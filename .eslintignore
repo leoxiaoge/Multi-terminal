@@ -1,0 +1,16 @@
+/build/
+/config/
+/dist/
+/*.js
+/test/unit/coverage/
+/docs/
+/src/main/
+/src/renderer/
+/src/common/
+/src/detail/
+/src/home/
+/src/list/
+/src/mp/
+/src/index.ejs
+/src/main.js
+/src/index.js

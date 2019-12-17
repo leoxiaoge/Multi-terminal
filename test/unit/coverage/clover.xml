@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1575807400870" clover="3.2.0">
+  <project timestamp="1575807400870" name="All files">
+    <metrics statements="77" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="30" coveredmethods="0" elements="111" coveredelements="0" complexity="0" loc="77" ncloc="77" packages="8" files="11" classes="11">
+      <package name="src">
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <file name="App.vue" path="/Users/lee/Desktop/github/Multi-terminal/src/App.vue">
+          <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="8" count="0" type="stmt"/>
+        </file>
+      </package>
+      <package name="src.common">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <file name="Header.vue" path="/Users/lee/Desktop/github/Multi-terminal/src/common/Header.vue">
+          <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+          <line num="8" count="0" type="stmt"/>
+          <line num="15" count="0" type="stmt"/>
+        </file>
+      </package>
+      <package name="src.detail">
+        <metrics statements="10" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="7" coveredmethods="0"/>
+        <file name="Index.vue" path="/Users/lee/Desktop/github/Multi-terminal/src/detail/Index.vue">
+          <metrics statements="10" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="7" coveredmethods="0"/>
+          <line num="10" count="0" type="stmt"/>
+          <line num="11" count="0" type="stmt"/>
+          <line num="12" count="0" type="stmt"/>
+          <line num="21" count="0" type="stmt"/>
+          <line num="22" count="0" type="stmt"/>
+          <line num="23" count="0" type="stmt"/>
+          <line num="24" count="0" type="stmt"/>
+          <line num="25" count="0" type="stmt"/>
+          <line num="29" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="30" count="0" type="stmt"/>
+        </file>
+      </package>
+      <package name="src.home">
+        <metrics statements="16" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="8" coveredmethods="0"/>
+        <file name="Index.vue" path="/Users/lee/Desktop/github/Multi-terminal/src/home/Index.vue">
+          <metrics statements="15" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="8" coveredmethods="0"/>
+          <line num="30" count="0" type="stmt"/>
+          <line num="31" count="0" type="stmt"/>
+          <line num="32" count="0" type="stmt"/>
+          <line num="33" count="0" type="stmt"/>
+          <line num="34" count="0" type="stmt"/>
+          <line num="44" count="0" type="stmt"/>
+          <line num="45" count="0" type="stmt"/>
+          <line num="46" count="0" type="stmt"/>
+          <line num="47" count="0" type="stmt"/>
+          <line num="48" count="0" type="stmt"/>
+          <line num="50" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="51" count="0" type="stmt"/>
+          <line num="53" count="0" type="stmt"/>
+          <line num="58" count="0" type="stmt"/>
+          <line num="62" count="0" type="stmt"/>
+        </file>
+        <file name="web.js" path="/Users/lee/Desktop/github/Multi-terminal/src/home/web.js">
+          <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="1" count="0" type="stmt"/>
+        </file>
+      </package>
+      <package name="src.list">
+        <metrics statements="8" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="0"/>
+        <file name="Index.vue" path="/Users/lee/Desktop/github/Multi-terminal/src/list/Index.vue">
+          <metrics statements="8" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="0"/>
+          <line num="12" count="0" type="stmt"/>
+          <line num="13" count="0" type="stmt"/>
+          <line num="22" count="0" type="stmt"/>
+          <line num="23" count="0" type="stmt"/>
+          <line num="24" count="0" type="stmt"/>
+          <line num="25" count="0" type="stmt"/>
+          <line num="26" count="0" type="stmt"/>
+          <line num="30" count="0" type="stmt"/>
+        </file>
+      </package>
+      <package name="src.mp.home">
+        <metrics statements="15" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <file name="main.mp.js" path="/Users/lee/Desktop/github/Multi-terminal/src/mp/home/main.mp.js">
+          <metrics statements="15" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+          <line num="1" count="0" type="stmt"/>
+          <line num="2" count="0" type="stmt"/>
+          <line num="3" count="0" type="stmt"/>
+          <line num="4" count="0" type="stmt"/>
+          <line num="5" count="0" type="stmt"/>
+          <line num="6" count="0" type="stmt"/>
+          <line num="8" count="0" type="stmt"/>
+          <line num="10" count="0" type="stmt"/>
+          <line num="28" count="0" type="stmt"/>
+          <line num="29" count="0" type="stmt"/>
+          <line num="30" count="0" type="stmt"/>
+          <line num="32" count="0" type="stmt"/>
+          <line num="34" count="0" type="stmt"/>
+          <line num="36" count="0" type="stmt"/>
+          <line num="40" count="0" type="stmt"/>
+        </file>
+      </package>
+      <package name="src.mp.other">
+        <metrics statements="16" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <file name="main.mp.js" path="/Users/lee/Desktop/github/Multi-terminal/src/mp/other/main.mp.js">
+          <metrics statements="16" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+          <line num="1" count="0" type="stmt"/>
+          <line num="2" count="0" type="stmt"/>
+          <line num="3" count="0" type="stmt"/>
+          <line num="4" count="0" type="stmt"/>
+          <line num="5" count="0" type="stmt"/>
+          <line num="6" count="0" type="stmt"/>
+          <line num="7" count="0" type="stmt"/>
+          <line num="9" count="0" type="stmt"/>
+          <line num="11" count="0" type="stmt"/>
+          <line num="25" count="0" type="stmt"/>
+          <line num="26" count="0" type="stmt"/>
+          <line num="27" count="0" type="stmt"/>
+          <line num="29" count="0" type="stmt"/>
+          <line num="31" count="0" type="stmt"/>
+          <line num="33" count="0" type="stmt"/>
+          <line num="37" count="0" type="stmt"/>
+        </file>
+      </package>
+      <package name="src.store">
+        <metrics statements="9" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="0"/>
+        <file name="actions.js" path="/Users/lee/Desktop/github/Multi-terminal/src/store/actions.js">
+          <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+          <line num="2" count="0" type="stmt"/>
+          <line num="3" count="0" type="stmt"/>
+          <line num="4" count="0" type="stmt"/>
+        </file>
+        <file name="index.js" path="/Users/lee/Desktop/github/Multi-terminal/src/store/index.js">
+          <metrics statements="5" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="1" count="0" type="stmt"/>
+          <line num="2" count="0" type="stmt"/>
+          <line num="3" count="0" type="stmt"/>
+          <line num="4" count="0" type="stmt"/>
+          <line num="6" count="0" type="stmt"/>
+        </file>
+        <file name="mutations.js" path="/Users/lee/Desktop/github/Multi-terminal/src/store/mutations.js">
+          <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+          <line num="3" count="0" type="stmt"/>
+        </file>
+      </package>
+    </metrics>
+  </project>
+</coverage>
