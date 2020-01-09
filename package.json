@@ -28,9 +28,9 @@
     "pack:main": "cross-env NODE_ENV=production webpack --progress --colors --config .electron-vue/webpack.main.config.js",
     "pack:renderer": "cross-env NODE_ENV=production webpack --progress --colors --config .electron-vue/webpack.renderer.config.js",
     "postinstall": "npm run lint:fix",
+    "test": "concurrently \"npm run unit\" \"npm run e2e\"",
     "unit": "jest --config test/unit/jest.conf.js --coverage",
     "e2e": "node test/e2e/runner.js",
-    "test": "concurrently \"npm run unit\" \"npm run e2e\"",
     "lint": "eslint --ext .js,.vue src test/unit test/e2e/specs",
     "lint:fix": "eslint --ext .js,.vue -f ./node_modules/eslint-friendly-formatter --fix src test"
   },
