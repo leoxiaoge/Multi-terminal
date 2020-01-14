@@ -142,6 +142,11 @@ electron-packager <sourcedir> <appname> --platform=<platform> --arch=<arch> [opt
 * --platform=<platform>：确定了你要构建哪个平台的应用（Windows、Mac 还是 Linux） 
 * --arch=<arch>：决定了使用 x86 还是 x64 还是两个架构都用 
 * [optional flags...]：可选选项
+  
+|名称| 类型| 默认值| 是否必须| 说明|
+| :----- | :-----: | :-----: | :-----: | :----- |
+|sourcedir|object|| 是|项目所在路径 |
+|appname|object|| 是|打包的项目名字 |
 
 2、首先在项目根目录下面的 package.json 里添加代码
 
