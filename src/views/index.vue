@@ -1,7 +1,7 @@
 <template>
   <div class="content">
     <Header></Header>
-    <p>应用</p>
+    <p class="page">应用</p>
   </div>
 </template>
 <script>
@@ -44,7 +44,6 @@ export default Vue.extend({
 .content {
   margin-top: 20px;
 }
-
 a, button {
   display: block;
   width: 100%;
@@ -54,10 +53,14 @@ a, button {
   font-size: 20px;
   border: 1px solid #ddd;
 }
-
 .miniprogram-root {
   .for-web {
     display: none;
   }
+}
+.page {
+  display: flex;
+  width: 320px;
+  font-size: 14px
 }
 </style>

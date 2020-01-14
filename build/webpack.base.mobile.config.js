@@ -1,6 +1,6 @@
+'use strict'
 const path = require('path')
 const eslintFriendlyFormatter = require('eslint-friendly-formatter')
-
 module.exports = {
   context: path.resolve(__dirname, '../'),
   entry: {
